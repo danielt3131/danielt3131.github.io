@@ -101,6 +101,18 @@
       font-size:.95rem;
     }
 
+    .exp-head a{
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px dashed rgba(255,255,255,.18);
+      transition: .2s ease;
+    }
+
+    .exp-head a:hover{
+      color: var(--accent-2);
+      border-bottom-color: rgba(142,240,213,.55);
+    }
+
     .contact a{
       color:var(--text);
       text-decoration:none;
@@ -493,7 +505,12 @@
       <div class="section-header"><h2>Experience</h2></div>
       <div class="section-body">
         <div class="exp-head">
-          <div><strong>President of z/OSprey’s</strong> <span class="muted">• University of North Florida • Jacksonville, FL</span></div>
+          <div>
+            <strong>
+              <a href="https://unf.campusgroups.com/zos/web_officers" target="_blank" rel="noopener">President of z/OSpreys</a>
+            </strong>
+            <span class="muted">• University of North Florida • Jacksonville, FL</span>
+          </div>
           <div class="muted">September 2025 - May 2026</div>
         </div>
         <ul class="bullet-list">
@@ -508,7 +525,7 @@
   </main>
 
   <footer>
-    © 2026 Daniel Thompson • Built from resume content with animated profile header
+    © 2026 Daniel Thompson
   </footer>
 </body>
 </html>
